@@ -48,3 +48,6 @@ php artisan serve
 
 # Compiler les assets (CSS/JS)
 npm run dev
+
+ou # Lancer le serveur et Compiler les assets (CSS/JS)
+composer run dev
