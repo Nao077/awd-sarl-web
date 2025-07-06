@@ -37,11 +37,8 @@ cd awd-sarl-web
 composer install
 npm install
 
-# Copier le fichier d'environnement
-cp .env.example .env
-
-# Générer la clé d'application
-php artisan key:generate
+#lancer les migrations
+php artisan migrate
 
 # Lancer le serveur
 php artisan serve
@@ -49,5 +46,5 @@ php artisan serve
 # Compiler les assets (CSS/JS)
 npm run dev
 
-ou # Lancer le serveur et Compiler les assets (CSS/JS)
+# ou Lancer le serveur et Compiler les assets (CSS/JS)
 composer run dev
